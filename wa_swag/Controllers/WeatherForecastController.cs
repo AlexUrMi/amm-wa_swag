@@ -7,6 +7,9 @@ using Microsoft.Extensions.Logging;
 
 namespace wa_swag.Controllers
 {
+    /// <summary>
+    /// My super duper weather controller
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -23,6 +26,10 @@ namespace wa_swag.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// My super duper weather forecast
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>wa_swag</name>
+    </assembly>
+    <members>
+        <member name="T:wa_swag.Controllers.WeatherForecastController">
+            <summary>
+            My super duper weather controller
+            </summary>
+        </member>
+        <member name="M:wa_swag.Controllers.WeatherForecastController.Get">
+            <summary>
+            My super duper weather forecast
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
